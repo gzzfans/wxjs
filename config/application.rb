@@ -8,6 +8,7 @@ Bundler.require(*Rails.groups)
 
 module Wxjs
   class Application < Rails::Application
+    # $client ||= WeixinAuthorize::Client.new("wx3f44f37038103ff2", "999b43178f1d1d12b29ea1060b6ff844")
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
